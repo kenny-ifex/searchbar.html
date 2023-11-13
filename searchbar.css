@@ -1,0 +1,37 @@
+*{margin: 0;
+padding: 0;}
+body{
+    background-color:rgb(245, 244, 237);
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+img{
+    height: 40px;
+    cursor: pointer;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border: none;
+    outline: none;
+    font-size: larger;
+
+}
+div {
+    display: flex;
+    background-color: white;
+    height: 50px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 25px;
+    
+}
+input::placeholder{
+    font-size: larger;
+}
+input type{
+
+}
